@@ -2,7 +2,7 @@ name: Build and push to TdA
 on:
   push:
     branches:
-      - main
+      - TdA
 jobs:
   build:
     runs-on: ubuntu-latest
