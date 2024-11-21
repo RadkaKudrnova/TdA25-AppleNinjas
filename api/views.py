@@ -1,3 +1,5 @@
 from django.shortcuts import render
+from django.http import JsonResponse
 
-# Create your views here.
+def organization_api(request):
+    return JsonResponse({"organization": "Student Cyber Games"})
