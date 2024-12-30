@@ -13,5 +13,9 @@
     "nuxt": "^3.13.2",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@types/estree": "^1.0.6",
+    "@types/http-proxy": "^1.17.15"
   }
 }
